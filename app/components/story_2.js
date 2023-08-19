@@ -1,15 +1,21 @@
 import Image from "next/image";
 
-export function Story() {
+export function Story_2() {
   return (
     <section className="bg-white dark:bg-gray-900">
       <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
+      <Image
+          src="/img/minnatosugosu.webp"
+          width={300}
+          height={300}
+          alt="taiken"
+          content="fill"
+        />
         <div className="mt-4 md:mt-0">
-          <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-            📢勉強嫌いの生徒あつまれ！
-          </h2>
           <h2 className="mb-4 text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-            一人ひとりに向き合った指導をお約束します
+          一人ひとりに寄り添い<br />
+​『自分から机に向かいたくなる』<br />
+​お手伝いをします🌸
           </h2>
           <p className="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">
             シエルとソワルは <br />
@@ -35,13 +41,6 @@ export function Story() {
             </svg>
           </a>
         </div>
-        <Image
-          src="/img/study_wakaranai_boy.webp"
-          width={300}
-          height={300}
-          alt="taiken"
-          content="cover"
-        />
       </div>
     </section>
   );

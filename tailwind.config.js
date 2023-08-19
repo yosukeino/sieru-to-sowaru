@@ -28,5 +28,7 @@ module.exports = {
         'white': "#FFFFFF",
       },
     },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/aspect-ratio'),
+  ],
 }
