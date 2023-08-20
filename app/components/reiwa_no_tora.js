@@ -6,16 +6,22 @@ export function Reiwa() {
         <br />
         ​塾長が出演しました！
       </h2>
-      <div class="aspect-w-16 aspect-h-9">
-      <iframe
-  src="https://www.youtube.com/embed/R8b5olq98GM"
-  width="560"
-  height="315"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen
-></iframe>
-      
+      <div className="flex justify-center gap-1">
+        <iframe
+          
+          src="https://www.youtube.com/watch?v=R8b5olq98GM"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/watch?v=R8b5olq98GM"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
       </div>
     </div>
   );

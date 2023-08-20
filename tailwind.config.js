@@ -30,5 +30,7 @@ module.exports = {
     },
   plugins: [
     require('@tailwindcss/aspect-ratio'),
+    // require("tailwindcss-responsive-embed"),
   ],
+
 }
