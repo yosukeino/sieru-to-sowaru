@@ -15,7 +15,7 @@ export function Reiwa() {
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowfullscreen
 ></iframe>
-
+      
       </div>
     </div>
   );
