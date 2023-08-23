@@ -26,6 +26,8 @@ module.exports = {
       colors: {
         'yellow': '#FFD700',
         'white': "#FFFFFF",
+        'bg_yellow': "#FFF8D4",
+        'bg_pink': "#FFF1F0",
       },
     },
   plugins: [
